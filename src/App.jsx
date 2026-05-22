@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SearchBar from './components/SearchBar'
 import WeatherCard from './components/WeatherCard'
 
-const API_KEY = 'YOUR_API_KEY_HERE' // 🔑 Replace with your OpenWeatherMap API key
+const API_KEY = 'ef40df6fd89345ec4a6f65a4ce72f35d' // 🔑 Replace with your OpenWeatherMap API key
 
 // Maps weather condition IDs to background themes
 function getWeatherTheme(weatherId, isDay) {
